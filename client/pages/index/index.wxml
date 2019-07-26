@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="map">
+    <map 
+      id="map" 
+      longitude="{{longitude}}" 
+      latitude="{{latitude}}" 
+      scale="14" 
+      show-location
+    >
+      <cover-view class="center" bindtap="moveToCenter">
+        <cover-image class="img" src="/resources/center.png" />
+      </cover-view>
+    </map> 
+  </view>
+  <view class="tabbar">
+    <view>发布</view>
+    <view>搜索</view>
+  </view>
+</view>
