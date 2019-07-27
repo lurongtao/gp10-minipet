@@ -13,7 +13,11 @@
     </map> 
   </view>
   <view class="tabbar">
-    <view>发布</view>
-    <view>搜索</view>
+    <navigator open-type="navigateTo" url="/pages/publish/publish">
+      <view class="publish">发布</view>
+    </navigator>
+    <navigator open-type="navigateTo" url="/pages/search/search">
+      <view class="search">搜索</view>
+    </navigator>
   </view>
 </view>

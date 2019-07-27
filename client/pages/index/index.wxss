@@ -19,17 +19,17 @@
   display: flex;
 }
 
-.container .tabbar view {
+.container .tabbar navigator {
   flex: 1;
   text-align: center;
   color: #fff;
   line-height: 88rpx;
 }
 
-.container .tabbar view:first-child {
+.container .tabbar .publish {
   background: #f29a38;
 }
 
-.container .tabbar view:last-child {
+.container .tabbar .search {
   background: #52b9d2;
 }
