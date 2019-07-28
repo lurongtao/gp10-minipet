@@ -1,0 +1,64 @@
+/* pages/detail/detail.wxss */
+
+.wrap {
+  font-size: 34rpx;
+  font-weight: 400;
+  color: #666;
+}
+
+.wrap .item {
+  display: flex;
+  height: 100rpx;
+  border-bottom: solid 1rpx #ccc;
+}
+
+.wrap .item .label {
+  width: 180rpx;
+  padding-left: 20rpx;
+  line-height: 100rpx;
+}
+
+.wrap .item .content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 20rpx;
+  font-weight: 200;
+}
+
+.wrap .item .content image {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.button {
+  height: 100rpx;
+  margin: 20rpx;
+  text-align: center;
+  line-height: 100rpx;
+  background: #f19a38;
+  border-radius: 10rpx;
+  color: #fff;
+}
+
+.button-warning {
+  background: red;
+}
+
+.button-success {
+  background: green;
+}
+
+.feedback {
+  margin: 50rpx 20rpx;
+}
+
+.feedback > view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback > view icon {
+  margin-right: 20rpx;
+}

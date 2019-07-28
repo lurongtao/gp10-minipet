@@ -1,0 +1,43 @@
+page{
+  background: #eee;
+}
+.row {
+  overflow: hidden;
+  line-height: 50px;
+  border-bottom: 1px solid #ccc;
+  background: #fff;
+  color: #777;
+}
+.submit-button {
+  margin: 10px 8px 0 8px;
+  background: #ff9700;
+  line-height: 38px;
+  border-radius: 6px;
+  text-align: center;
+  color: #fff;
+}
+.title {
+  padding-left: 10px;
+  width: 90px;
+  float: left;
+}
+.info-input {
+  height: 50px;
+}
+.success {
+  background: #fff;
+  padding-bottom: 20px;
+}
+.congratulation {
+  text-align: center;
+  line-height: 100px;
+  font-size: 16px;
+}
+.success-icon {
+  position: relative;
+  top: 6px;
+  margin-right: 10px;
+}
+.backhome-button {
+  margin: 0 10px;
+}

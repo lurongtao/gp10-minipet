@@ -1,0 +1,1 @@
+<view class="common-header" bindtap="handleHeaderTap">{{headerContent}}</view>

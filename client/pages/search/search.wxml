@@ -1,0 +1,24 @@
+<view class="search-header">
+  <input class="search-input" bindinput="handleInputChange"/>
+  <view class="search-btn" bindtap="handleSearch">搜索</view>
+</view>
+
+<scroll-view class="scrollview" scroll-y="{{true}}">
+  <view 
+    class="item" 
+    bindtap="handleItemTap"
+    wx:for="{{list}}"
+    wx:key="{{item.id}}"
+    data-id="{{item.id}}"
+  >
+    <view class="item-address">
+      {{item.address}} {{item.id}}
+    </view>
+    <view class="item-message">{{item.message}}</view>
+  </view>
+  <view class="info" wx:if="{{list.length === 0}}">
+    <text data-text="{{item}}" wx:for="{{storages}}" wx:key="{{item}}" bindtap="handleHistoryItemTap">
+      {{item}}
+    </text>
+  </view>
+</scroll-view>

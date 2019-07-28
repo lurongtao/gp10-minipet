@@ -1,0 +1,30 @@
+<view class="wrap">
+  <view class="item">
+    <view class="label">我的地址</view>
+    <view class="content">
+      {{address}}
+    </view>
+  </view>
+  <view class="item">
+    <view class="label">类型</view>
+    <view class="content">
+      <image src="{{type === '' ? '' : '/resources/' + type + '.png'}}" />
+    </view>
+  </view>
+  <view class="item">
+    <view class="label">说明</view>
+    <view class="content">
+      {{message}}
+    </view>
+  </view>
+  <view class="item">
+    <view class="label">联系方式</view>
+    <view class="content">
+      {{contact}}
+    </view>
+  </view>
+
+  <view class="button" bindtap="handleButtonTap">
+    返回
+  </view>
+</view>

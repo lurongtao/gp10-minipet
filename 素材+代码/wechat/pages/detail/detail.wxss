@@ -1,0 +1,25 @@
+@import "../../components/header/header.wxss";
+
+page{
+  background: #eee;
+}
+.row {
+  overflow: hidden;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  background: #fff;
+  color: #777;
+}
+.info {
+  margin-left: 100px;
+  line-height: 30px;
+}
+.title {
+  padding-left: 10px;
+  width: 90px;
+  float: left;
+  line-height: 30px;
+}
+.info-input {
+  height: 50px;
+}

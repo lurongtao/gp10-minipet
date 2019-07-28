@@ -1,5 +1,5 @@
 const { http } = require('../../utils/util.js')
-const regeneratorRuntime = require("regenerator-runtime")
+// const regeneratorRuntime = require("regenerator-runtime")
 
 Page({
   data: {
@@ -52,7 +52,7 @@ Page({
   },
 
   handleSuccBackTap() {
-    wx.navigateBack()
+    wx.navigateBack({})
   },
 
   handleFailBackTap () {

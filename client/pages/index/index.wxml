@@ -4,8 +4,10 @@
       id="map" 
       longitude="{{longitude}}" 
       latitude="{{latitude}}" 
-      scale="14" 
+      scale="16" 
       show-location
+      markers="{{markers}}"
+      bindmarkertap="handleMarkerTap"
     >
       <cover-view class="center" bindtap="moveToCenter">
         <cover-image class="img" src="/resources/center.png" />
