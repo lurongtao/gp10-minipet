@@ -1,0 +1,14 @@
+<view class="feedback">
+  <view>
+    <icon type="{{isSucc ? 'success' : 'warn'}}" size="50"/>
+    <text wx:if="{{isSucc}}">恭喜你~信息提交成功！</text>
+    <text wx:else>抱歉~信息提交失败！</text>
+  </view>
+
+  <view wx:if="{{isSucc}}" class="button button-success" bindtap="handleSuccBackTap">
+    返回首页
+  </view>
+  <view wx:else class="button button-warning" bindtap="handleFailBackTap">
+    重新发布
+  </view>
+</view>

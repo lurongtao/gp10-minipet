@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "feedback": "/components/feedback"
+  },
   "navigationBarTitleText": "发布信息"
 }

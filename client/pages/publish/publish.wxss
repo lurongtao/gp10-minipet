@@ -33,25 +33,3 @@
   border-radius: 10rpx;
   color: #fff;
 }
-
-.button-warning {
-  background: red;
-}
-
-.button-success {
-  background: green;
-}
-
-.feedback {
-  margin: 50rpx 20rpx;
-}
-
-.feedback > view {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.feedback > view icon {
-  margin-right: 20rpx;
-}
